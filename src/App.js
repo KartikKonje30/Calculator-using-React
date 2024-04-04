@@ -9,7 +9,7 @@ export default function App() {
   
     const handleButtonClick = (value) => {
       if (value === '=') {
-        if (input.trim() === '') {
+        if (input === '') {
           setResult('Error');
         } else {
           try {
